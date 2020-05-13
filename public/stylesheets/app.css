@@ -1,0 +1,34 @@
+i.icon {
+	font-size: 1.5em;
+}
+.container.main {
+	margin-top: 7.0em;
+}
+
+.a {
+	display: inline;
+}
+
+body {
+	background-color: #cfd1cf;
+	background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+}
+
+.b {
+	margin-left: 10%;
+}
+
+hr {
+	width: 100%;
+	margin: 25px 0;
+}
+
+.c {
+	margin-left: 40%;
+}
+
+.copyright h3{
+	margin-top: 5px;
+	text-align: center;
+}
+
