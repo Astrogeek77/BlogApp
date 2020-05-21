@@ -5,7 +5,7 @@ var express = require("express"),
 	mongoose = require("mongoose"),
 	bodyParser = require("body-parser");
 
-mongoose.connect("mongodb+srv://admin:admin@blogpage-2020-rvgsd.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://admin:admin@blogpage-2020-rvgsd.mongodb.net/test?retryWrites=true&w=majority");
 app.use(methodOverride("_method"));
 app.set("view engine", "ejs");
 app.use(express.static("public"));
