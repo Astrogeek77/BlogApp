@@ -141,6 +141,6 @@ function escapeRegex(text) {
 };
 
 
-app.listen(process.env.port || 3000, process.env.IP, function () {
+app.listen(process.env.port || 3000, function () {
 	console.log("Server has Started!");
 })
