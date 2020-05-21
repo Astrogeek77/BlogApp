@@ -133,7 +133,7 @@ app.delete("/blogs/:id", function (req, res) {
 		} else {
 			res.redirect("/blogs");
 		}
-	})
+ 	})
 });
 
 function escapeRegex(text) {
